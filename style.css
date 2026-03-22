@@ -887,3 +887,102 @@ html, body {
     display: none;
   }
 }
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+body * {
+  max-width: 100%;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero,
+.section,
+.coracao-container,
+.circulacao-container,
+.vasos-container,
+.doencas-container,
+.prevencao-section,
+.alerta-final,
+.formulario-section,
+.curiosidades-coracao,
+.comparacao-vasos,
+.fluxo-section {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .hero,
+  .section,
+  .coracao-container,
+  .circulacao-container,
+  .vasos-container,
+  .doencas-container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .hero-text h1,
+  .coracao-texto h2,
+  .circulacao-texto h2,
+  .vasos-texto h2,
+  .doencas-container h2 {
+    font-size: 42px !important;
+    line-height: 1.1;
+    word-break: break-word;
+  }
+
+  .desc,
+  .sub-info,
+  .desc-doencas,
+  .hero-text p {
+    font-size: 16px !important;
+    line-height: 1.6;
+  }
+
+  .stats,
+  .cards-coracao,
+  .cards-circulacao,
+  .cards-vasos,
+  .cards-doencas,
+  .cards-curiosidades,
+  .prevencao-cards,
+  .fluxo-box {
+    justify-content: center;
+    overflow-x: hidden;
+  }
+
+  .card,
+  .card-coracao,
+  .card-doenca,
+  .etapa {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .hero-img,
+  .coracao-midia,
+  .circulacao-video-area,
+  .vasos-video-area {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .hero-img img,
+  .video-coracao,
+  .video-circulacao,
+  .video-vasos {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
